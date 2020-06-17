@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+background-color: rgb(245, 244, 244);
+display: flex;
+height: 40px;
+font-weight: bold;
+color: rgb(138, 135, 135);
+}
+.mine {
+margin-left: 65%;
+padding-top: 10px;
+}
+li {
+
+list-style: none;
+color: gray;
+line-height: 36px;
+}
+.hide{
+    display:none;
+}
+.hit:hover{
+    cursor: pointer;
+}
+li .space{
+    margin-right: 17%;
+    color: rgb(117, 116, 116);
+}
+li:hover{
+    cursor: pointer;
+    color: rgb(29, 175, 233);
+}
+li .space:hover{
+    color: rgb(29, 175, 233);
+}
+.mine1 {
+margin-left: 10%;
+padding-top: 10px;
+}
+.division{
+  display: flex;
+  margin-top:30px ;
+}
+.set1{
+     margin-left: 10%;
+     width: 15%;
+     margin-top: 10pxz;
+}
+.set2{
+  margin-left: 70px;
+  padding-left: 40px;
+  margin-top: 80px;
+  border:2px solid tan;
+  border:1px solid rgb(207, 206, 206);
+  box-shadow:1px 1px 3px 3px rgb(235, 232, 232);
+  width: 60%;
+  height: 400px;
+}
+.set2 input{
+    width:94%;
+    border-radius: 4px;
+    border:1px solid rgb(207, 206, 206);
+    box-shadow:1px 1px 3px 3px rgb(235, 232, 232);
+    height: 30px;
+    margin: 12px 0;
+}
+.set2 input:focus{
+    outline-color: rgb(29, 175, 233);
+}
+.btn{
+    background-color: rgb(13, 99, 228);
+    color: white;
+    height: 35px;
+    width: 65px;
+    border: none;
+    border-radius: 5px;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: rgb(52, 52, 158);
+}

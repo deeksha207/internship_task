@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+h1{
+    text-align: center;
+    color: rgb(66, 66, 66);
+    font-size: 25px;
+    margin-bottom: 35px;
+}
+.main{
+    width: 25%;
+    height: 450px;
+    margin:150px auto;
+}
+.set{
+    box-shadow: 1px 1px 3px 3px rgb(235, 232, 232);
+    border:1px solid rgb(196, 192, 192);
+    height: 400px;
+    border-radius:10px;
+}
+.set .log{
+    margin:20px 0 10px 50px;
+}
+label{
+    margin:auto 50px;
+}
+input{
+    margin:12px 50px;
+    border-radius: 4px;
+    border:1px solid rgb(207, 206, 206);
+    box-shadow:1px 1px 3px 3px rgb(235, 232, 232);
+    width: 74%;
+    height: 30px;
+}
+input:focus{
+    outline-color: rgb(29, 175, 233);
+}
+
+.set2{
+    margin: 0 40%;
+    width:25%;
+}
+.set2 .fb{
+    color:white;
+    background-color: rgb(21, 21, 248);
+    width:15px;
+    
+}
+.set .twit{
+    color: white;
+    width: 15px;
+    margin-left: 20px;
+    background-color: rgb(29, 175, 233);
+}
+.set .goo{
+    color: rgb(184, 14, 14);
+    width: 15px;
+}
+button{
+    margin:30px 0 10px 0;
+    background-color: green;
+    color: white;
+    width: 74%;
+    height: 35px;
+    border-radius: 10px;
+}
+button:hover{
+    cursor: pointer;
+    background-color: rgb(6, 83, 57);
+}
